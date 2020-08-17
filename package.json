@@ -1,6 +1,6 @@
 {
   "name": "@amdglobal/react-file-viewer",
-  "version": "1.2.2",
+  "version": "1.2.3",
   "description": "Extendable file viewer for web",
   "main": "dist/index.js",
   "module": "dist/index.js",
@@ -79,7 +79,7 @@
   },
   "dependencies": {
     "comma-separated-values": "^3.6.4",
-    "mammoth": "^1.4.9",
+    "mammoth": "^1.4.11",
     "pdfjs-dist": "^2.3.200",
     "prop-types": "^15.5.10",
     "react-data-grid": "^5.0.5",
