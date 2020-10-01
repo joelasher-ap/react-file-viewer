@@ -1,8 +1,6 @@
 {
   "presets": [
     "@babel/preset-react",
-    "@babel/preset-env"
-  ],
-  "plugins": [
+    ["@babel/preset-env", {targets: "> 5.0%, not dead"}]
   ]
 }

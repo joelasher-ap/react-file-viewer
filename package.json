@@ -10,7 +10,7 @@
   },
   "scripts": {
     "dev": "webpack -d --watch",
-    "build": "babel --out-dir lib src",
+    "build": "babel --out-dir lib src --copy-files",
     "start": "node ./scripts/start.js",
     "lint": "node_modules/.bin/eslint ./src/**/*.jsx",
     "test": "node_modules/.bin/jest --env=jsdom --watch",
@@ -74,16 +74,17 @@
     "@babel/runtime": "^7.11.2",
     "comma-separated-values": "^3.6.4",
     "mammoth": "^1.4.11",
-    "pdfjs-dist": "^2.3.200",
     "prop-types": "^15.5.10",
     "react-data-grid": "^5.0.5",
     "react-visibility-sensor": "^5.0.2",
+    "slash": "^3.0.0",
     "three": "0.85.2",
     "xlsx": "^0.10.1"
   },
   "peerDependencies": {
     "react": "^16.6.3",
-    "react-dom": "^16.6.3"
+    "react-dom": "^16.6.3",
+    "pdfjs-dist": "^2.5.207"
   },
   "jest": {
     "testPathIgnorePatterns": [
