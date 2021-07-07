@@ -1,2 +1,9 @@
 webpack.config.js
 npm-debug.log
+src/
+scripts/
+dist/
+example_files/
+config/
+tests/
+index.html
