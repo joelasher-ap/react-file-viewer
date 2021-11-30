@@ -84,7 +84,7 @@
     "react-data-grid": "7.0.0-canary.30",
     "react-visibility-sensor": "^5.1.1",
     "slash": "^3.0.0",
-    "three": "0.85.2",
+    "three": "0.135.0",
     "xlsx": "^0.17.0"
   },
   "peerDependencies": {
